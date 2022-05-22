@@ -1,0 +1,272 @@
+:root {
+  --primary: #3c74a4;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+  font-family: "Oxygen", sans-serif;
+  color: var(--primary);
+}
+
+header {
+  display: flex;
+  padding: 1%;
+  background-color: var(--primary);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  margin-left: -2%;
+  border: 1px solid white;
+  background-color: white;
+}
+
+h1 {
+  margin-left: 30px;
+  margin-right: 10px;
+  font-size: 400%;
+}
+
+nav {
+  margin-right: 5%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  min-width: 300px;
+}
+
+nav a {
+  font-size: 170%;
+  color: white;
+  text-decoration: none;
+  padding: 0 6px;
+  margin-right: 10px;
+  border-bottom: 3px solid white;
+}
+
+.background-picture {
+  position: relative;
+  background-image: url("https://scand.com/wp-content/uploads/2021/03/Front-KV1.jpg");
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ceeefe;
+}
+
+.background-picture-content {
+  position: absolute;
+  background-color: var(--primary);
+  color: white;
+  font-size: 200%;
+  font-weight: bold;
+  padding: 10px;
+  right: 10%;
+  bottom: 10%;
+}
+.main {
+  margin: 3% 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main section {
+  margin: 3% 0;
+}
+
+section {
+  width: 100%;
+  display: flex;
+}
+
+.main-sec-left {
+  border-right: 5px solid var(--primary);
+  padding-right: 1%;
+}
+
+.main h2 {
+  font-size: 400%;
+  width: 15rem;
+  text-align: right;
+}
+
+.main-sec-right {
+  margin: 0 2%;
+}
+
+#sec-works {
+  width: 100%;
+}
+
+.main img {
+  width: 100%;
+}
+
+.works-large-image {
+  width: 100%;
+  position: relative;
+  padding: 10px;
+  padding-bottom: 5px;
+  background-color: var(--primary);
+  border: 10px solid white;
+}
+
+.works-large-image img {
+  filter: blur(1px);
+}
+
+.works-large-image-subtitle {
+  background-color: var(--primary);
+  position: absolute;
+  bottom: 50px;
+  left: -0.1px;
+  color: white;
+  padding: 10px;
+  line-height: 2rem;
+}
+
+.works-large-image-subtitle h3 {
+  font-size: 150%;
+  margin: 0 10px;
+}
+
+.works-large-image-subtitle span {
+  margin: 0 10px;
+}
+
+.works-small-images img {
+  height: 100%;
+  padding: 10px;
+  filter: blur(1px);
+}
+
+.works-images-left {
+  position: relative;
+  float: left;
+  height: 250px;
+  width: 50%;
+  background-color: var(--primary);
+  border: 10px solid white;
+}
+
+.works-images-right {
+  position: relative;
+  float: right;
+  height: 250px;
+  width: 50%;
+  background-color: var(--primary);
+  border: 10px solid white;
+}
+
+.works-small-images-subtitle {
+  background-color: var(--primary);
+  position: absolute;
+  bottom: 50px;
+  left: -0.1px;
+  color: white;
+  padding: 10px;
+  line-height: 2rem;
+}
+
+.works-small-images-subtitle h3 {
+  font-size: 150%;
+  margin: 0 10px;
+}
+
+.works-small-images-subtitle span {
+  margin: 0 10px;
+}
+
+.works-image img:hover {
+  filter: none;
+}
+
+.sec-contactMe-right {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 120%;
+  align-items: center;
+  margin: 0 7%;
+}
+
+.sec-contactMe-right div {
+  padding: 3px 5px;
+  border-bottom: 3px solid var(--primary);
+}
+
+.sec-contactMe-right a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+footer {
+  height: 20%;
+  font-size: 150%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary);
+  color: white;
+  padding: 10px;
+}
+
+footer span::after {
+  content: "😊";
+  text-align: center;
+}
+
+@media only screen and (max-width: 1446px) {
+    .sec-contactMe-right {
+      flex-wrap: wrap;
+    }
+  }
+
+@media only screen and (max-width: 1200px) {
+  header {
+    flex-wrap: wrap;
+  }
+  .works-images-left {
+    width: 100%;
+  }
+  .works-images-right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    nav{
+        display: flex;
+    }
+    nav ul{
+        flex-wrap: wrap;
+        justify-content:flex-start;
+    }
+    nav a{
+        width: 100%;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-sec-left{
+       border-right: none;
+       border-bottom: 3px solid var(--primary);
+    }
+    .main h2{
+        font-size: 250%;
+        text-align: left;
+    }
+
+  }
