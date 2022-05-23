@@ -113,7 +113,7 @@ section {
   width: 100%;
 }
 
-.works-large-image {
+.sec-works-large-image {
   width: 100%;
   position: relative;
   padding: 10px;
@@ -122,11 +122,11 @@ section {
   border: 10px solid white;
 }
 
-.works-large-image img {
+.sec-works-large-image img {
   filter: blur(1px);
 }
 
-.works-large-image-subtitle {
+.sec-works-large-image-subtitle {
   background-color: var(--primary);
   position: absolute;
   bottom: 50px;
@@ -136,22 +136,22 @@ section {
   line-height: 2rem;
 }
 
-.works-large-image-subtitle h3 {
+.sec-works-large-image-subtitle h3 {
   font-size: 150%;
   margin: 0 10px;
 }
 
-.works-large-image-subtitle span {
+.sec-works-large-image-subtitle span {
   margin: 0 10px;
 }
 
-.works-small-images img {
+.sec-works-small-images img {
   height: 100%;
   padding: 10px;
   filter: blur(1px);
 }
 
-.works-images-left {
+.sec-works-images-left {
   position: relative;
   float: left;
   height: 250px;
@@ -160,7 +160,7 @@ section {
   border: 10px solid white;
 }
 
-.works-images-right {
+.sec-works-images-right {
   position: relative;
   float: right;
   height: 250px;
@@ -169,7 +169,7 @@ section {
   border: 10px solid white;
 }
 
-.works-small-images-subtitle {
+.sec-works-small-images-subtitle {
   background-color: var(--primary);
   position: absolute;
   bottom: 50px;
@@ -179,16 +179,16 @@ section {
   line-height: 2rem;
 }
 
-.works-small-images-subtitle h3 {
+.sec-works-small-images-subtitle h3 {
   font-size: 150%;
   margin: 0 10px;
 }
 
-.works-small-images-subtitle span {
+.sec-works-small-images-subtitle span {
   margin: 0 10px;
 }
 
-.works-image img:hover {
+.sec-works-image img:hover {
   filter: none;
 }
 
@@ -237,10 +237,10 @@ footer span::after {
   header {
     flex-wrap: wrap;
   }
-  .works-images-left {
+  .sec-works-images-left {
     width: 100%;
   }
-  .works-images-right {
+  .sec-works-images-right {
     width: 100%;
   }
 }
