@@ -1,4 +1,4 @@
-## Assignment 2 
+## Bootcamp-Assignment-02 
 ## Build your portfolio page
 
 * AS AN employer
