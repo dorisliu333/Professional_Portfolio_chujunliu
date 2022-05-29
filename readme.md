@@ -9,7 +9,7 @@
 * click one of the links in the navigation, the UI scrolls to the corresponding section
 <img src="./images/readme02.png">
 
-* click one of the resume links in the navigation, it shows my resume PDF file
+* click the resume links in the navigation, it shows my resume PDF file
 <img src="./images/readme-resume.png">
 
 * click on the link to the section about their work, the UI scrolls to a section with titled images of the developer's applications, and the first image is  larger in size than the others
