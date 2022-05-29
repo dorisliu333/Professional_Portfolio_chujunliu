@@ -1,5 +1,4 @@
-## Bootcamp-Assignment-02 
-## Build your portfolio page
+## Chujun's portfolio page
 
 * AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
