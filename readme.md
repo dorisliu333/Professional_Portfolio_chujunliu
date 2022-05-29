@@ -7,8 +7,8 @@ SO THAT I can review samples of their work and assess whether they're a good can
 ## Acceptance Criteria
 GIVEN I need to sample a potential employee's previous work
 
-* WHEN I load their portfolio
-* THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+* open the page, it shows name, and links to sections about them, their work, and how to contact information
+<img src="./images/readme01.png">
 
 * WHEN I click one of the links in the navigation
 * THEN the UI scrolls to the corresponding section
@@ -27,4 +27,4 @@ GIVEN I need to sample a potential employee's previous work
 
 
 ## Deployment URL
-https://dorisliu333.github.io/bootcamp-assignment-02/
+https://dorisliu333.github.io/ChujunLiu_Professional_Portfolio/
