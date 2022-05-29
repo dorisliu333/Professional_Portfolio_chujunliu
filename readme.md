@@ -31,4 +31,4 @@ The block will resize when the page
 
 
 ## Deployment URL
-https://dorisliu333.github.io/ChujunLiu_Professional_Portfolio/
+https://dorisliu333.github.io/Professional_Portfolio_chujunliu/
