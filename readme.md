@@ -25,7 +25,7 @@ And click the second image will show my second work...
 
 * resize the page or view the site on various screens and devices, it presents with a responsive layout that adapts to my viewport
 <img src="./images/readme06.png">
-The block will resize when the page
+The block will change when the resize the page
 <img src="./images/readme07.png">
 <img src="./images/readme08.png">
 
